@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="952dp"
+        android:layout_marginTop="364dp"
+        android:text="50%"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="150sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="984dp"
+        android:layout_marginTop="278dp"
+        android:text="BATTERY"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/tv_rpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="362dp"
+        android:layout_marginTop="276dp"
+        android:text="1500"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="236sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="579dp"
+        android:layout_marginTop="275dp"
+        android:text="RPM"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/img_network"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/disconection" />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="276dp"
+        android:text="89"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="236sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="278dp"
+        android:text="SPEED"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="55dp"
+        android:text="26"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="447dp"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/up_arrow" />
+
+    <ImageButton
+        android:id="@+id/btn_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_network"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-91dp"
+        android:layout_marginEnd="108dp"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/down_arrow" />
+
+</RelativeLayout>
